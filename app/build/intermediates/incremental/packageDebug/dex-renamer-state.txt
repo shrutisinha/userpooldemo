@@ -1,0 +1,7 @@
+#Wed Aug 09 17:47:06 IST 2017
+base.0=/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_82ba51d190ee76ad11035d7f15e95913782fc48d
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_85b992b0ca95a10b6c0936ed5117558d727c6b3f/classes.dex
+base.1=/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_85b992b0ca95a10b6c0936ed5117558d727c6b3f
+file.0=/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_82ba51d190ee76ad11035d7f15e95913782fc48d/classes.dex

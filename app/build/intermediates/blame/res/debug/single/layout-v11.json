@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/home/zemoso/.android/build-cache/793786ec4b5b417727ca470a9080bee41fe5bcea/output/res/layout-v11/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
+        "source": "/home/zemoso/.android/build-cache/793786ec4b5b417727ca470a9080bee41fe5bcea/output/res/layout-v11/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/home/zemoso/.android/build-cache/793786ec4b5b417727ca470a9080bee41fe5bcea/output/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/home/zemoso/.android/build-cache/793786ec4b5b417727ca470a9080bee41fe5bcea/output/res/layout-v11/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/home/zemoso/.android/build-cache/793786ec4b5b417727ca470a9080bee41fe5bcea/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/home/zemoso/.android/build-cache/793786ec4b5b417727ca470a9080bee41fe5bcea/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    }
+]

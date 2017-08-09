@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="25ea2e8b0c338a877313bd4672d3fe056ea78f0d">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsr305-3.0.2_4740099f8238a27b97f20f285ad4f58680f0916a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/.android/build-cache/d45378694c3c01e341c1ffa16dd764c3fba55433/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="68956f5ba1517b7a3d513ba540548e257741cbae">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1c887b2ac4fe095e865e66b81fe862159fb5e6df/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-ddb/2.3.3/f671a3f320bc0c7cb6e6c2c821289f0aacd6acb9/aws-android-sdk-ddb-2.3.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f671a3f320bc0c7cb6e6c2c821289f0aacd6acb9">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/aws-android-sdk-ddb-2.3.3_08ce66ad369370041c0af732587bf62b4b34afc4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-s3/2.3.3/c573e3c8b9fe81aa502441338155144a6217715f/aws-android-sdk-s3-2.3.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c573e3c8b9fe81aa502441338155144a6217715f">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/aws-android-sdk-s3-2.3.3_0dbb11e1a0b7bbbfeb365cfbab6882c402921de5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.13.0_fe01e2bb6152d5473d4e386c758269634152337c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/android-studio/gradle/m2repository/com/android/databinding/baseLibrary/2.3.3/baseLibrary-2.3.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb3399988a52099b0127e27fb5bed666eca86ace">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/baseLibrary-2.3.3_75704130c982f26f79c9e0438c6bdcad7da539a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-core/2.3.3/45991c46f31e5fb14777759e0300abc156c6efa8/aws-android-sdk-core-2.3.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45991c46f31e5fb14777759e0300abc156c6efa8">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/aws-android-sdk-core-2.3.3_2ef5e7f94cab47a8bbad2aa7ee70593d0a3b4bb2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-cognitoidentityprovider/2.3.3/12d27c2a6087362cc8752a683c9a116e83c8900e/aws-android-sdk-cognitoidentityprovider-2.3.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="12d27c2a6087362cc8752a683c9a116e83c8900e">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/aws-android-sdk-cognitoidentityprovider-2.3.3_3810b27c8a983dbb00661c73640e3a694cb84b2f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/.android/build-cache/ceb6cba795b6b106c756d3e400733b6fe428b56a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7f2f348b830f292429db987f74ba3e67c6752322">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fee2dae3989cd7e513ed45803bf413c3f6a46944/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/.android/build-cache/9af70bb7b9738d11ba12eea0348901043efa9108/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_89a4f55e175c989cd6ee36a6733f687facbb57ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/.android/build-cache/8d3695dd73927f858f5806c46c2a33549abc1074/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ca4e7fd0832e6d2e3e412c84f42f74d17529e62f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/.android/build-cache/790a17b3dc4f21f290fa1c3da30051cb39c56f97/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d9cc42a192b4ddf6c244b0a902d85eed16532d45/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/android-studio/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.2.4_ee0179183cc12d87b762899f0e71bd373d3fee7f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/.android/build-cache/c23104937616b5b23dbe40e71fbb0de3f6609908/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e42b8c0c5783f9a2458fe0049d063cdf81104834/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/.android/build-cache/3178c106266abab580f3ac7845054764f0c53c79/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a421738220a37d35c048d9077c2278b5c119db9a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/.android/build-cache/3178c106266abab580f3ac7845054764f0c53c79/output/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_53403fe7f32476383e833eb500c4587d8d5c7bfc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-lambda/2.3.3/80ff0ce8ab893d42e6028726f0c2c93d4fb08e63/aws-android-sdk-lambda-2.3.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="80ff0ce8ab893d42e6028726f0c2c93d4fb08e63">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/aws-android-sdk-lambda-2.3.3_d90f96f37cb761cd9c385cffafc4ccdcd75f81ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_82ba51d190ee76ad11035d7f15e95913782fc48d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.0/5a11f020cce2d11eb71ba916700600e18c4547e7/okhttp-3.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.8.0_1c3df7e1a38c0ed930837786271b05537f49a857/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/.android/build-cache/06cd587c20559e91cfdc55fae6044ba800712f36/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8c44ac82a7d4befe70387042131430341742e9c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_0c2fe6da2253dbb34c48f7c7caeb46f84a2923c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f108bab94d33e85545ff81ceea492ecb267f3b98">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_85b992b0ca95a10b6c0936ed5117558d727c6b3f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/.android/build-cache/5861a23124befcdffae7cddadec5283c38a72a0f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_37c5a7c6e16eefe0533e07f52900d0ebac1f63da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zemoso/.android/build-cache/5a72d1d8a458da133895f89a71571487e93ffdf7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0158f9a23cb2432db02a37687b12256da3deb2bc/classes.dex" />
+    </item>
+
+</items>

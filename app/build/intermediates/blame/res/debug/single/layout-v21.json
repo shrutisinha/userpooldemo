@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/zemoso/.android/build-cache/793786ec4b5b417727ca470a9080bee41fe5bcea/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/zemoso/.android/build-cache/793786ec4b5b417727ca470a9080bee41fe5bcea/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/zemoso/.android/build-cache/793786ec4b5b417727ca470a9080bee41fe5bcea/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/zemoso/.android/build-cache/793786ec4b5b417727ca470a9080bee41fe5bcea/output/res/layout-v21/notification_action.xml"
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/zemoso/.android/build-cache/5a72d1d8a458da133895f89a71571487e93ffdf7/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/zemoso/.android/build-cache/793786ec4b5b417727ca470a9080bee41fe5bcea/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/home/zemoso/.android/build-cache/793786ec4b5b417727ca470a9080bee41fe5bcea/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/home/zemoso/.android/build-cache/793786ec4b5b417727ca470a9080bee41fe5bcea/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/home/zemoso/.android/build-cache/b7ef76bebe7c8a6e0794353ca6f421b173457913/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/zemoso/.android/build-cache/793786ec4b5b417727ca470a9080bee41fe5bcea/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/home/zemoso/.android/build-cache/793786ec4b5b417727ca470a9080bee41fe5bcea/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/zemoso/.android/build-cache/793786ec4b5b417727ca470a9080bee41fe5bcea/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/zemoso/.android/build-cache/793786ec4b5b417727ca470a9080bee41fe5bcea/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/home/zemoso/.android/build-cache/793786ec4b5b417727ca470a9080bee41fe5bcea/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/zemoso/.android/build-cache/793786ec4b5b417727ca470a9080bee41fe5bcea/output/res/color-v23/abc_tint_switch_track.xml"
+    }
+]

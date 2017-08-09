@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    tools:context="com.amazonaws.youruserpools.FunctionsActivity">
+
+    <TextView
+        android:id ="@+id/listContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Result"
+        android:layout_weight="0.81"
+        android:layout_above="@+id/getAllParent"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/getAllParent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get All Parents"
+        android:layout_above="@+id/getParent"
+        android:layout_alignParentStart="true" />
+
+
+
+    <Button
+        android:id="@+id/getParent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Current Parent Info"
+        android:layout_above="@+id/getChildren"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/getChildren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Children Info"
+        android:layout_above="@+id/space8"
+        android:layout_alignParentStart="true" />
+
+    <Space
+        android:layout_width="match_parent"
+
+        android:layout_height="48dp"
+        android:layout_above="@+id/addChildren"
+        android:layout_alignParentStart="true"
+        android:id="@+id/space8" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adding Operations"
+        android:layout_gravity="center"
+        android:layout_above="@+id/addChildren"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/addParents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/addChildren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Child"
+        android:layout_above="@+id/addParents"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

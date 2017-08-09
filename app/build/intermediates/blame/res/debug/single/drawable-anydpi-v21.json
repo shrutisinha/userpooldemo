@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/home/zemoso/.android/build-cache/b7ef76bebe7c8a6e0794353ca6f421b173457913/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/home/zemoso/.android/build-cache/b7ef76bebe7c8a6e0794353ca6f421b173457913/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    }
+]

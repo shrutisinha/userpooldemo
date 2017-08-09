@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/zemoso/.android/build-cache/5a72d1d8a458da133895f89a71571487e93ffdf7/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/zemoso/Desktop/AWS-Android-Demo/aws-sdk-android-samples/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/zemoso/.android/build-cache/5a72d1d8a458da133895f89a71571487e93ffdf7/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]
