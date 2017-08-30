@@ -19,7 +19,6 @@ package com.amazonaws.youruserpools;
 
 
 import android.app.ProgressDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -72,7 +71,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
+import okhttp3.RequestBody;
 
 public class UserActivity extends AppCompatActivity {
     private final String TAG1="MainActivity";
@@ -87,7 +88,11 @@ public class UserActivity extends AppCompatActivity {
     private Button getAllParents;
     private Button getParent;
     private Button getChildren;
+    private Button getChild;
+    private Button getGame;
     private TextView listContent;
+    private EditText childData;
+    private Button addChild;
     //endregion
 
     // region Cognito user objects
@@ -105,8 +110,15 @@ public class UserActivity extends AppCompatActivity {
     //To store list of registered parents
     private  String parentsList="No entries";
 
-    private String uri ="https://pr0kx7v4dg.execute-api.us-east-2.amazonaws.com/dev/";
+    //private String uri ="https://pr0kx7v4dg.execute-api.us-east-2.amazonaws.com/dev/";
+    private String uri = "https://api.newrealmtechnology.com/dev/";
     private final String default_uri= uri;
+
+    private String tmp_params = "";
+
+    private String id = "";
+    private Map<String,Object> params;
+    //private RequestBody req_body;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -137,11 +149,11 @@ public class UserActivity extends AppCompatActivity {
         navHeaderSubTitle.setText(username);
         //endregion
 
-        //Textview to display registered parents
+        //Textview to display
         listContent = (TextView) findViewById(R.id.list_content);
         listContent.setMovementMethod(new ScrollingMovementMethod());
         listContent.setSingleLine(false);
-        listContent.setText("list of parents");
+        listContent.setText("Output");
         //credentialsProvider.clear();
         //Log.d("SEssion expiry time", String.valueOf(credentialsProvider.getSessionDuration()));
         credentialsProvider = new CognitoCachingCredentialsProvider(
@@ -165,7 +177,7 @@ public class UserActivity extends AppCompatActivity {
                 uri +="allparents";
                 //new CallFunctionsUseHttp(getApplicationContext(),listContent).getParentsList(uri,session);
                 //listContent.setText(result);
-                getParentsList();
+                getList();
                     //setContentView(R.layout.call_functions);
 
             }
@@ -178,7 +190,7 @@ public class UserActivity extends AppCompatActivity {
                 listContent.clearComposingText();
                 uri=default_uri;
                 uri+="parents";
-                getParentsList();
+                getList();
                 //performAction();
             }
         });
@@ -189,12 +201,82 @@ public class UserActivity extends AppCompatActivity {
                 listContent.clearComposingText();
                 uri=default_uri;
                 uri+="children";
-                getParentsList();
+                getList();
+            }
+        });
+        getChild = (Button) findViewById(R.id.get_child);
+        getChild.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                listContent.clearComposingText();
+                uri=default_uri;
+                getId();
+                uri+="children/"+id;
+                getList();
+            }
+        });
+        getGame = (Button) findViewById(R.id.get_game);
+        getGame.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                listContent.clearComposingText();
+                uri=default_uri;
+                getId();
+                uri+="game/"+id;
+                getList();
+            }
+        });
+        addChild=(Button)findViewById(R.id.add_child);
+        addChild.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tmp_params = (findViewById(R.id.params)).toString();
+                //req_body = RequestBody.create(MediaType.parse("application/json"),tmp_params);
+
+//                params = new HashMap<String, Object>();
+//                String[] array_params = tmp_params.split(" ");
+//                params.put("username",array_params[0]);
+//                params.put("favoriteColor",array_params[1]);
+//                params.put("isRightHanded",Boolean.valueOf(array_params[2]));
+
+                listContent.clearComposingText();
+                uri=default_uri;
+                uri+="children";
+
+                setData();
             }
         });
 
+    }
+
+    private void getId() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Enter ID");
+
+// Set up the input
+        final EditText input = new EditText(this);
+// Specify the type of input expected; this, for example, sets the input as a password, and will mask the text
+        //input.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
+        builder.setView(input);
+
+// Set up the buttons
+        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                id = input.getText().toString();
+            }
+        });
+        builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.cancel();
+            }
+        });
+
+        builder.show();
 
     }
+
     //region lambda call
     //----------------------------------------------------------------------------------------------------------
     interface MyInterface {
@@ -417,13 +499,171 @@ public class UserActivity extends AppCompatActivity {
     }
     //endregion
 
-    private void getParentsList() {
+    private void getList() {
         //Call the Async function
-        AsyncGetResult callAllParents = new AsyncGetResult();
-        callAllParents.execute();
+        AsyncGetResult asyncCall = new AsyncGetResult();
+        asyncCall.execute();
         //SEssion expiry time: 3600
         Log.d("SEssion expiry time", String.valueOf(credentialsProvider.getSessionDuration()));
     }
+    private void setData() {
+        //Call the Async function
+        AsyncSetData asyncCall = new AsyncSetData();
+        asyncCall.execute();
+        //SEssion expiry time: 3600
+        Log.d("SEssion expiry time", String.valueOf(credentialsProvider.getSessionDuration()));
+    }
+
+
+
+
+    //----------------------------------------------------------------------------------------------
+
+    //region Async Function
+    private class AsyncSetData extends AsyncTask<Void, Void, Void> {
+        private String func_uri;
+        private RequestBody req_body;
+
+        //private String parameters = "";
+        //CognitoCachingCredentialsProvider credentialsProvider;
+        @Override
+        public Void doInBackground(Void... voids) {
+            func_uri=uri;
+            req_body= RequestBody.create(MediaType.parse("application/json; charset=utf-8"),tmp_params);
+            //parameters = tmp_params;
+            getCredentialProvider();
+            callFuncCreateSig();
+            return null;
+        }
+        private void getCredentialProvider(){
+            String idToken = session.getIdToken().getJWTToken();
+            Log.d("idtoken",idToken);
+
+            credentialsProvider = new CognitoCachingCredentialsProvider(
+                    getApplicationContext(), //context
+                    "us-east-2:12aea453-5bdd-4df9-a13d-32d3f4510709", // Identity pool ID
+                    Regions.US_EAST_2 // Region
+            );
+            AppHelper x = new AppHelper();
+            x.getCurrUser();x.getCurrSession();
+            // Set up as a credentials provider.
+            Map<String, String> logins = new HashMap<>();
+            //Log.d("Check logins", String.valueOf(idToken));
+            logins.put("cognito-idp.us-east-2.amazonaws.com/us-east-2_Bkjf1CqAH",
+                    idToken);
+            credentialsProvider.setLogins(logins);
+
+        }
+        private String generateIdentityId(){
+            //CognitoCachingCredentialsProvider credentialsProvider = getCredentialProvider();
+            String identityId = credentialsProvider.getIdentityId();
+            Log.d("identityId ",identityId);
+            String AccessKey = credentialsProvider.getCredentials().getAWSAccessKeyId();
+            String SecretKey = credentialsProvider.getCredentials().getAWSSecretKey();
+            String SessionKey = credentialsProvider.getCredentials().getSessionToken();
+
+            Log.d("AccessKey = " , AccessKey);
+            Log.d("SecretKey = " , SecretKey);
+            Log.d("SessionKey = " , SessionKey);
+
+            return identityId;
+        }
+        private void callFuncCreateSig(){
+
+            //getCredentialProvider();
+            String identityId = generateIdentityId();
+            //Step 3: Create an aws requets and sign by using AWS4Signer class (API_GATEWAY_SERVICE_NAME);
+
+            String AccessKey = credentialsProvider.getCredentials().getAWSAccessKeyId();
+            String SecretKey = credentialsProvider.getCredentials().getAWSSecretKey();
+            String SessionKey = credentialsProvider.getCredentials().getSessionToken();
+
+            Log.d("AccessKey = " , AccessKey);
+            Log.d("SecretKey = " , SecretKey);
+            Log.d("SessionKey = " , SessionKey);
+            AmazonWebServiceRequest amazonWebServiceRequest = new AmazonWebServiceRequest() {
+            };
+
+            //ClientConfiguration clientConfiguration = new ClientConfiguration();
+
+            String API_GATEWAY_SERVICE_NAME = "execute-api";
+
+            DefaultRequest request = new DefaultRequest(amazonWebServiceRequest,API_GATEWAY_SERVICE_NAME);
+            request.setEndpoint(URI.create(func_uri));
+            request.setHttpMethod(HttpMethodName.POST);
+            //request.setParameters(params);
+
+
+
+            Log.d("Method name", String.valueOf(request.getHttpMethod()));
+            Log.d("Endpoint", String.valueOf(request.getEndpoint()));
+
+            //Create the AWS4 Signature
+            AWS4Signer signer = new AWS4Signer();
+            signer.setServiceName(API_GATEWAY_SERVICE_NAME);
+            signer.setRegionName(Region.getRegion(Regions.US_EAST_2).getName());
+            signer.sign(request, credentialsProvider.getCredentials());
+
+            Log.d("Request header " ,request.getHeaders().toString());
+            Log.d("AWS4Signer ", String.valueOf(signer));
+
+            //Step 4: Create new request with authorization headers
+            OkHttpClient httpClient = new OkHttpClient();
+            Map<String, String> headers = request.getHeaders();
+            Log.d("request headers httpcli",headers.toString());
+            List<String> key = new ArrayList<>();
+            List<String> value = new ArrayList<>();
+            for (Map.Entry<String, String> entry : headers.entrySet())
+            {
+                key.add(entry.getKey());
+                value.add(entry.getValue());
+            }
+            Log.d("headers map", String.valueOf(headers));
+            try {
+                okhttp3.Request request2 = new okhttp3.Request.Builder()
+                        .url(func_uri+"/") // remember to add / to the end of the uri, otherwise the signature will be different
+                        .post(req_body)
+                        .addHeader(key.get(0), value.get(0))
+                        .addHeader(key.get(1), value.get(1))
+                        .addHeader(key.get(2), value.get(2))
+                        .addHeader(key.get(3), value.get(3))
+                        .addHeader("Content-Type", "application/x-www-form-urlencoded")
+                        .build();
+                okhttp3.Response response = null;
+                Log.d("HTTP Request 2", String.valueOf(request2));
+
+                response = httpClient.newCall(request2).execute();
+                if(response!=null) {
+                    String body = response.body().string();
+                    parentsList = body;
+                }
+                //cant directly use listContent.setText(body); as setText must be run in UIThread
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        listContent.setText(parentsList);
+                    }
+                });
+                Log.d("response " , parentsList);
+            } catch (Exception e) {
+                Log.d("error " , String.valueOf(e));
+            }
+        }
+
+//        private Map<String,String> getPara() {
+//            Map<String,String> params = new HashMap<>();
+//            String[] array_params = parameters.split(" ");
+//            for(int it = 0; it < array_params.length ; it+=2){
+//                params.put(array_params[it],array_params[it+1]);
+//            }
+//            return params;
+//        }
+
+    }
+
+
+    //endregion
+    //-----------------------------------------------------------------------------------------------
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
